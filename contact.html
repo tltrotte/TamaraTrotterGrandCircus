@@ -12,29 +12,54 @@ li {color: Green;
 }
 #myname {Color:pink; background-color: purple;
 }
+body{
+ background: rgba(76, 175, 80, 0.1)
+ }
+ h2{
+   color: #0d1d2e;
+   text-transform: uppercase;
+   padding-left: 40px
+   font-family: arial
 
+ }
+ .LeaveYourInfo{
+   width: 250px;
+   height: 300px;
+   position: absolute;
+   top: 30%;
+   left: 40%;
+   background-color: rgba(183, 143, 223, 0.5);
+   box-shadow: 0 0 50px #ef8bc7
 
+ }
 
+ p{
+   color: pink
+
+ }
 </style>
 </head>
-<body style=  "background-color: Antiquewhite;  opacity: 100; } </body>
+<body>
 
   <nav>
-    <a href = "Trotter-portfolio.html">Home</a> |
+  <a href = "Trotter-portfolio.html">Home</a>  |
     <a href = "about.html"> About </a> |
       <a href = "contact.html"> Contact </a>
 
     </nav>
-
+<h2> Leave your contact </h2>
 
 <body>
-  <form>
+  <div class= "LeaveYourInfo">
           First name: <input type="text" name="firstname" /> <br />
           Last Name: <input type="text" name="lastname" /> <br />
           Email: <input type="text" name="email" /> <br />
           Phone: <input type="text" name="phone" /> <br />
-       <input type="submit" value= Submit Now /></p>
-  </form>
+          Comments:
+          <br>
+          <textarea name="comments" cols=38 rows=8></textarea><br>
+    <p><input type="submit" value= Submit Now /></p>
+  </div>
 </body>
 
 </html>
